@@ -1,0 +1,22 @@
+.bg-signup {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: fit-content;
+  
+}
+.title {
+  text-align: center !important;
+}
+.signup-form {
+  max-width: 450px;
+  padding: 20px !important;
+  border-radius: 8px;
+  box-shadow: rgb(9 30 66 / 25%) 0px 4px 8px -2px,
+    rgb(9 30 66 / 31%) 0px 0px 1px;
+  margin: auto;
+  background-color: #fff;
+}
+.logo{
+  margin: auto;
+  max-width: 350px;
+}

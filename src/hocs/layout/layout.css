@@ -1,0 +1,40 @@
+.children-component {
+    width: calc(100% - 270px);
+    padding: 15px;
+    transition: .5s;
+    background: #fff;
+    box-shadow: #ccc 0 0 10px;
+}
+.sidebar-component {
+    width: 270px;
+    transition: .5s;
+    padding: 15px;
+    background: #f5f2f2;
+    min-height: calc(100vh - 74px);
+    box-shadow: #ccc 0 0 10px;
+    position: relative;
+   
+}
+.content-components {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.sidebar-component.sidebar-resize .sidebar-menu,.sidebar-component.sidebar-resize .sidebar-info {
+    opacity: 0;
+    visibility: hidden;
+}
+.sidebar-component.sidebar-resize {
+    width: 45px;
+}
+.children-component.sidebar-resize {
+    width: calc(100% - 45px);
+}
+.sidebar-component.sidebar-resize .resize {
+    
+    transform: rotate(
+180deg);
+}
+.sidebar-component.sidebar-resize .sidebar-info:hover .resize{
+    opacity: 1;
+}

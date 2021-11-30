@@ -1,0 +1,39 @@
+.dashboard__content {
+  display: flex;
+  justify-content: space-between;
+  background: #17a2b8;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: #fff;
+  padding: 15px;
+}
+.dashboard__icon {
+    font-size: 60px;
+    background: transparent;
+    color: #148a9d;
+}
+.dashboard__content:hover .dashboard__icon {
+    transition: .5s;
+    transform: scale(1.1);
+}
+.dashboard__item span {
+    font-size: 20px;
+}
+.dashboard__item h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 38px;
+  font-weight: bold;
+}
+.dashboard__viewmore {
+  padding: 5px 0;
+  text-align: center;
+  background: #1691a5;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.dashboard__viewmore a {
+  color: #ffff;
+  display: inline-flex;
+  align-items: center;
+}

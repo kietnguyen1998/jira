@@ -1,0 +1,13 @@
+.logo-pages img {
+    width: 200px;
+}
+header.ant-layout-header {
+    background: linear-gradient(
+45deg , #356bcf,#247aef );
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: #2c6ec9 3px 3px 7px;
+}

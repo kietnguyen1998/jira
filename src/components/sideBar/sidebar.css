@@ -1,0 +1,27 @@
+img.sidebar-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+}
+.sidebar-info {
+    display: flex;
+    margin-bottom: 30px;
+}
+.siderbar-content {
+    margin-left: 10px;
+}
+.resize span {
+    color: #2f72db;
+}
+.resize {
+    font-size: 20px;
+    position: absolute;
+    right: -10px;
+    top: 30px;
+    opacity: 0;
+    transition: .5s;
+}
+.sidebar-component:hover .resize{
+    opacity: 1;
+}
+

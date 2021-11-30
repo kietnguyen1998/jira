@@ -1,0 +1,49 @@
+.task-content {
+  border: 1px solid #f3f0f0;
+  padding: 15px;
+  border-radius: 5px;
+  height: 80vh;
+  overflow-y: scroll;
+}
+.task-content::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.task-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+/* Handle */
+.task-content::-webkit-scrollbar-thumb {
+  background: #cecece;
+  border-radius: 5px;
+}
+.time-traking {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* Handle on hover */
+.task-content::-webkit-scrollbar-thumb:hover {
+  background: #c1bebe;
+}
+.task-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.w-100 {
+  width: 100%;
+}
+.w-49 {
+  width: 49%;
+}
+.w-24 {
+  width: 23.5%;
+}
+.err{
+  color: rgb(255, 7, 7);
+  margin: 5px 0 0;
+}
